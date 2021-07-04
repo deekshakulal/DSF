@@ -1,0 +1,31 @@
+A CARE PLAN EXAMPLE FOR A PERSON WITH ADVANCED COPD – STARTING WITH H&P 
+AND DISCHARGE SUMMARY FROM RECENT HOSPITALIZATION, THEN RESULTS FROM 
+CARE PLANNING WITH PRIMARY CARE PHYSICIAN AND OTHERS. 
+H&P 
+NAME: Mary Smith 
+MRN: 12345 
+DICTATION BY: Dr. John Lee 
+ADMISSION DATE: 11/29/14 
+CHIEF COMPLAINT: Shortness of breath 
+HISTORY OF PRESENT ILLNESS: The patient is a very pleasant 67 year old who comes into 
+the hospital after waking up short of breath. She recently visited the emergency 
+department 3 weeks ago and was sent home on azithromycin and a prednisone taper. 
+She says that she was improving and she forgot to take her inhalers daily. She states 
+that she has a chronic cough that goes on and off throughout the day. Her sputum is 
+white. She denies chest pain, fever, chills, or night sweats. She has no lower extremity 
+edema. 
+REVIEW OF SYSTEMS: As in the HPI; otherwise the full review of systems was reviewed 
+and is negative. 
+PAST MEDICAL HISTORY: Chronic Obstructive Pulmonary Disorder, hypertension, 
+hyperlipidemia, osteoporosis, and hypothyroidism. 
+PAST SURGICAL HISTORY: Hip replacement 2005 
+ALLERGIES: No Known Drug Allergies. No known environmental allergies. 
+CURRENT MEDICATIONS: 
+Albuterol inhaler PRN, fluticasone/salmeterol inhaler BID, multivitamin daily, 
+hydrochlorothiazide 25 mg daily, levothyroxine 75 mcg daily, atorvastatin 40 mg daily, 
+tiotropium daily, St John’s Wort, 
+SOCIAL HISTORY: She is widowed and is a retired school teacher. She lives alone but her 
+family visits her often. 
+FAMILY HISTORY: Father passed away from an MI at age 56. 
+PHYSICAL EXAMINATION: Temperature is 37 C, heart rate 95, BP 156/92, respiratory 
+rate is 28 breaths per minute, O2 saturation is 93% on 2 L.

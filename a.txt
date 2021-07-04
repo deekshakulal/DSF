@@ -1,0 +1,38 @@
+DISCHARGE SUMMARY 
+PATIENT INFORMATION 
+NAME: Mary Smith 
+MRN:12345 
+DICTATED BY: Dr. John Lee 
+ADMISSION DATE: 11/29/14 
+DISCHARGE DATE: 12/1/14 
+DISCHARGE DIAGNOSIS: Acute COPD exacerbation 
+DISPOSITION: Home in stable and improved condition. 
+FOLLOW UP: I have asked the patient to follow with her PCP within the next week. 
+HOSPITAL COURSE: 
+Please refer to the H&P on 11/29/14. 
+1. COPD exacerbation 
+a. The patient is a very pleasant 67 year old woman with severe COPD. She 
+came in quite short of breath and tachypnic with respiratory distress. 
+She was treated with steroids and nebulizer treatments and improved 
+over her 2 day stay. She narrowly avoided intubation. Today on my 
+exam, she has slightly tight breathing sounds throughout which I think is 
+her baseline. Her lungs sound more open today. She does get somewhat 
+hypoxic with exertion but does not qualify for oxygen at this point. The 
+patient is otherwise stable and I have asked her to follow up with her PCP 
+within the next week. She will be given a short course of prednisone and 
+antibiotics for 5 days. She should have PFTs when stable. 
+2. Hypertension 
+a. Initially high but stabilized by the time of discharge. BP 138/88 
+3. Hyperlipidemia 
+a. Stable. Follow up with PCP. 
+4. Hypothyroidism 
+a. Stable 
+5. Osteoporosis 
+a. Stable 
+DISCHARGE MEDICATIONS: 
+Discharge Medications 
+Albuterol 
+Fluticasone/salmeterol 
+Aspirin 81 mg 1 tab PO daily 
+Multivitamin 1 tab daily 
+HCTZ 25 mg 1 tab PO daily
