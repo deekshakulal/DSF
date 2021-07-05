@@ -23,8 +23,8 @@ def printGraph(triples,n):
     
     plt.axis('off')
     plt.savefig("KG/"+n+".png", format="PNG")
-    plt.draw()
-    plt.pause(1)
+    # plt.draw()
+    # plt.pause(1)
     
 # t=[['She', 'was', 'quarantined']]
 # printGraph(t)

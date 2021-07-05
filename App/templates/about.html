@@ -3,5 +3,11 @@
 <body>
 <h1>About me</h1>
 <p>This is a portfolio site about anything that can be put in a portfolio.</p>
+
+<form action="{{ url_for('addRegion') }}" method="post" enctype="multipart/form-data">
+    <label for="files">Select files:</label>
+    <input type="file" id="files" name="files" multiple><br><br>
+    <input type="submit">
+  </form>
 </body>
 </html>

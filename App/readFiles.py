@@ -2,12 +2,13 @@ import file_preprocess
 import getTriplets_B
 import drawKG
 import re
-files=["Doc.txt","s.txt"]
+#files=["Doc.txt","s.txt"]
 triplets = {}
 def process_files(files):
     for i in files:
         try:
-            f=open(i,'r',encoding='utf-8')
+            j='Files\\'+i
+            f=open(j,'r',encoding='utf-8')
             text=f.read().replace('\n',' ')
             #print(text)
         
