@@ -40,9 +40,10 @@ def fin(sn):
                         if(len(i)!=0):
                             for rel in i:
                                 relatn=getlemma(rel['relation'])
+                
                                 relationSent=rel['subject'],relatn,rel['object']
                                 #relationSent=rel['subject'],rel['relation'],rel['object']
-                                #print(relationSent)
+                                print(relationSent)
                                 ans.append(list(relationSent))
                         else:
                             res=getTriplets_C.tripsC(s)
@@ -53,7 +54,7 @@ def fin(sn):
                     res=getTriplets_C.tripsC(s)
                     for r in res:
                         ans.append(r)
-    #lemmatization only if required uncomment it and call above 
+    #lemmatization 
     def getlemma(x):
         tokens = getTriplets_C.nlp_model(x)
         print('Tokens-->',tokens)
@@ -61,8 +62,8 @@ def fin(sn):
             if "punct" in token.dep_:
                 continue
             if getTriplets_C.isRelationCandidate(token):
-                print(token.lemma_)
-        return token.lemma_
+                lem=token.lemma_
+        return lem
     tripsA(sn)
     return ans
 

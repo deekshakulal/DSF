@@ -22,9 +22,9 @@ def printGraph(triples,n):
         nx.draw_networkx_edge_labels(G,pos,edge_labels={(triple[0],triple[2]):triple[1]},font_color='red')
     
     plt.axis('off')
-    plt.savefig("KG/"+n+".png", format="PNG")
-    # plt.draw()
+    plt.savefig(r"C:\Users\dell\Documents\Final year proj\dsf\App\static\KG\\"+n+".png", format="PNG")
+    #plt.draw()
     # plt.pause(1)
     
 # t=[['She', 'was', 'quarantined']]
-# printGraph(t)
+# printGraph(t,'p')

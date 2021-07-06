@@ -1,13 +1,16 @@
 import file_preprocess
 import getTriplets_B
+#import getTriplets_A # depends on case
 import drawKG
 import re
-#files=["Doc.txt","s.txt"]
+import os
+ROOT = os.path.dirname(os.path.abspath(__file__))
+#files=["p.txt"]
 triplets = {}
 def process_files(files):
     for i in files:
         try:
-            j='Files\\'+i
+            j=r'C:\Users\dell\Documents\Final year proj\dsf\App\Files\\'+i
             f=open(j,'r',encoding='utf-8')
             text=f.read().replace('\n',' ')
             #print(text)
@@ -35,4 +38,5 @@ def process_files(files):
         drawKG.printGraph(t,i.split(".")[0])
     return triplets
 
+#print(process_files(files))
 

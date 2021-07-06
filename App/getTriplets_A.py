@@ -57,8 +57,8 @@ def fin(sn):
             if "punct" in token.dep_:
                 continue
             if getTriplets_C.isRelationCandidate(token):
-                print(token.lemma_)
-        return token.lemma_
+                lem=token.lemma_
+        return lem
     tripsA(sn)
     return ans
 

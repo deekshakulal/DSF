@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Page</h1>
+<p>This is a portfolio site about anything that can be put in a portfolio.</p>
+{% if results %}
+
+    <form action="{{ url_for('page') }}" method="POST" enctype="multipart/form-data">
+        
+        <input type="hidden" name="results" value='{{results}}'><br><br>
+        <input type="submit" name="Score">
+    </form>
+    <form action="{{ url_for('search') }}" method="POST" enctype="multipart/form-data">
+        
+        <input type="hidden" name="results" value='{{results}}'><br><br>
+        <button onclick="myFunction()">Keyword search</button>
+
+        <script>
+        function myFunction() {
+        var key = prompt("Please enter keyword", "Keyword");
+        if (key == null) {
+            myFunction();
+        }
+        else{
+            document.getElementById('key').value=key;
+        }
+        }
+        </script>
+        
+        <input type="hidden" name="key" id="key" value="" >
+    </form>
+
+    <form action="{{ url_for('visualize') }}" method="POST" enctype="multipart/form-data">
+        {% if f %}
+        
+        <input type="hidden" name="results" value='{{f}}'><br><br>
+        <button>visualize KG</button>
+        {% endif %}
+    </form>
+{% endif %}
+</body>
+</html>

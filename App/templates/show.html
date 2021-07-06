@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>KGS</h1>
+<button onclick="func()">Show</button>
+
+<img id="i" src="">
+
+<script type="text/javascript">
+    function func(){
+        f=["p.png","s.png"]
+        for(let x=0;x<f.length;x++){
+            var s="{{ url_for('static', filename='KG/"+f[x]+"') }}";
+            console.log("ans",s);
+            document.getElementById("i").src=s;
+            document.getElementById("l").innerHTML=s;
+        }
+    }
+
+</script>
+</body>
+</html>

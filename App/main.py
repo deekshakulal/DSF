@@ -1,10 +1,10 @@
 import functions
 
-files=["a.txt","a.txt",'c.txt']
+files=["c1.txt","c2.txt","c3.txt"]
 
 triplets=functions.getTriplets(files)
 print(triplets)
 score=functions.computescore(triplets)
 print(score)
-search=functions.keywordsearch("quarantined",triplets)
+search=functions.keywordsearch("diabetes",triplets)
 print(search)
