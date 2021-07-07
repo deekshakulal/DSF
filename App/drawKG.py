@@ -23,7 +23,7 @@ def printGraph(triples,n):
     
     plt.axis('off')
     plt.savefig(r"C:\Users\dell\Documents\Final year proj\dsf\App\static\KG\\"+n+".png", format="PNG")
-    #plt.draw()
+    plt.draw()
     # plt.pause(1)
     
 # t=[['She', 'was', 'quarantined']]

@@ -6,7 +6,7 @@ def getTriplets(files):
     tripletss=readFiles.process_files(files)
     #print((tripletss))
     try:
-        f = open('Triplets.txt', 'w')
+        f = open('App/Triplets.txt', 'w')
         json.dump(tripletss, f)
         #f=open("Triplets.txt",'w',encoding='utf-8')
         #f.write(tripletss)
