@@ -48,7 +48,7 @@ def page():
     print("score---",score)
     s=""
     for i,j in score.items():
-        s=s+"\n"+str(i)+" is "+str(j)+"%.     \n"
+        s=s+"\n"+str(i)+" is "+str(j)+"%.     9\n"
     print(s)
     return render_template("result.html",results=t,st=s)
     #return(functions.getTriplets(fs))
