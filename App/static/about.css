@@ -1,0 +1,54 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 16px;
+}
+.hero{
+	height:100%;
+	width:100%;
+    /*background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(70,252,219,1) 100%);*/
+    background-image:url("bg2.jpg");
+	background-position:center;
+	background-size:cover;
+	position:absolute;
+}
+
+.form-box{
+	width:380px;
+	height:480px;
+	position:relative;
+	margin:6% auto ;
+	/*background-image:url(bg.png);*/
+	background:rgba(255,255,255,0.9);
+	padding:5px;
+	/*box-shadow: 5px 5px 7px 5px #888888;*/
+	border-radius:2%;
+	overflow:hidden;
+}	
+
+.submit-btn{
+	width:80%;
+	padding:10px 15px;
+	background: #FEAC5E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/*background:linear-gradient(to right,#ff105f,#ffad06);*/
+	cursor:pointer;
+	display:block;
+	border:0;
+    outline:none;
+	border-radius:50px;
+    margin:25px 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: lighter;
+}
+

@@ -6,12 +6,10 @@ def getTriplets(files):
     tripletss=readFiles.process_files(files)
     #print((tripletss))
     try:
-        f = open('App/Triplets.txt', 'w')
+        f = open(r'C:\Users\dell\Documents\Final year proj\dsf\App\Triplets.txt', 'w')
         json.dump(tripletss, f)
         #f=open("Triplets.txt",'w',encoding='utf-8')
         #f.write(tripletss)
-    except:
-        print("Couldn't open the file ",f)
     finally:
         f.close()
     return tripletss

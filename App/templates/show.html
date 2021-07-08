@@ -1,22 +1,35 @@
 <!DOCTYPE html>
 <html>
-<body>
+    <head>
+        <title>Knowledge Graphs</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='about.css') }}">
+        <link rel="icon" href="{{ url_for('static', filename='bg3.jpg') }}">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+<body onload="func()">
 
-<h1>KGS</h1>
-<button onclick="func()">Show</button>
-
-<img id="i" src="">
-
+{% if im %}
+<input type="hidden" name="imgfile" id="imgfile" value='{{im}}'><br><br>
+{% endif %}
 <script type="text/javascript">
     function func(){
-        f=["p.png","s.png"]
-        for(let x=0;x<f.length;x++){
-            var s="{{ url_for('static', filename='KG/"+f[x]+"') }}";
-            console.log("ans",s);
-            document.getElementById("i").src=s;
-            document.getElementById("l").innerHTML=s;
+            //p=["c3.png","c1.png","a.png"]
+            p=document.getElementById("imgfile").value;
+            //var s= " \"{{ url_for('static', filename='KG/c3.png') }}\"";
+            p=p.slice(1, -1);
+            var ar = p.split(",");
+
+            var x="";
+            for(let i=0;i<ar.length;i++){
+                
+                ar[i]=ar[i].replaceAll("'", "")
+                ar[i]=ar[i].replaceAll(" ", "")
+                document.write("<figure align='center'> <img src='/static/KG/"+ar[i]+"' alt='Snow' style='width:40%; height:80%;'> <figcaption>"+ar[i]+"</figcaption></figure>");
+                document.write("<hr>");
+               
+            }
+           
         }
-    }
 
 </script>
 </body>

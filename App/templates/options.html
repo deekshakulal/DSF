@@ -1,42 +1,67 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
+
+<head>
+	<title>Options</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='about.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='bg3.jpg') }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
 <body>
-<h1>Page</h1>
-<p>This is a portfolio site about anything that can be put in a portfolio.</p>
-{% if results %}
+	<div class="hero">
+		<div class="form-box">
+			
+		{% if results %}
 
-    <form action="{{ url_for('page') }}" method="POST" enctype="multipart/form-data">
+        <form action="{{ url_for('page') }}" method="POST" enctype="multipart/form-data">
+            
+            <input  type="hidden" name="results" value='{{results}}'><br><br>
+            <input type="submit" class="submit-btn" name="score" value="Similarity score" />
         
-        <input type="hidden" name="results" value='{{results}}'><br><br>
-        <input type="submit" name="Score">
-    </form>
-    <form action="{{ url_for('search') }}" method="POST" enctype="multipart/form-data">
+        </form>
         
-        <input type="hidden" name="results" value='{{results}}'><br><br>
-        <button onclick="myFunction()">Keyword search</button>
+        <form action="{{ url_for('search') }}" method="POST" enctype="multipart/form-data">
+        
+            <input type="hidden" name="results" value='{{results}}'><br><br>
+            <button class="submit-btn" onclick="myFunction()">Keyword search</button>
 
-        <script>
-        function myFunction() {
-        var key = prompt("Please enter keyword", "Keyword");
-        if (key == null) {
-            myFunction();
-        }
-        else{
-            document.getElementById('key').value=key;
-        }
-        }
-        </script>
+            <script>
+                function myFunction() {
+                var key = prompt("Please enter keyword", "Keyword");
+                if (key == null) {
+                    myFunction();
+                }
+                else{
+                    document.getElementById('key').value=key;
+                }
+                }
+            </script>
         
-        <input type="hidden" name="key" id="key" value="" >
-    </form>
+            <input type="hidden" name="key" id="key" value="" >
+        </form>
 
-    <form action="{{ url_for('visualize') }}" method="POST" enctype="multipart/form-data">
-        {% if f %}
-        
-        <input type="hidden" name="results" value='{{f}}'><br><br>
-        <button>visualize KG</button>
+        <form action="{{ url_for('visualize') }}" method="POST" enctype="multipart/form-data">
+            {% if f %}
+            
+            <input type="hidden" name="imgfile" value='{{f}}'><br><br>
+            <button class="submit-btn">visualize KG</button>
+            {% endif %}
+        </form>
         {% endif %}
-    </form>
-{% endif %}
+			
+		
+				
+		</div>
+		
+	</div>
+	
+
+		
+	
 </body>
+
 </html>
+	
+	
+	

@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>Options</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='about.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='bg3.jpg') }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+	<div class="hero">
+		<div class="form-box">
+			
+		{% if results %}
+
+        <form>
+            
+            {% if st %}
+            <br><br><br><br><br>
+            <p class="p">Occurance of word: </p>
+             <br><br>
+             <p class="p">{{st}}</p>
+            {% endif %}
+        </form>
+        
+        
+        {% endif %}
+			
+		
+				
+		</div>
+		
+	</div>
+	
+
+		
+	
+</body>
+
+</html>
+	
+	
+	

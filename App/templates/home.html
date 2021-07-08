@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-        <link rel="icon" href="Bg3.jpg">
+        <link rel="icon" href="{{ url_for('static', filename='bg3.jpg') }}">
         <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
-        <title>Order.Xerox()</title>
+        <title>DSF</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
@@ -12,9 +12,9 @@
 <div class="bg-image"></div>
 
 <div class="bg-text">
-  <h2>HELLO THERE !! WELCOME</h2>
-  <h1 style="font-size:50px">Order.Xerox()</h1>
-  <p>A easy way to order the xerox</p>
+  <h2>DSF</h2>
+  <h1 style="font-size:50px">Document Similarity framework</h1>
+  <p>A framework to compare similarity between documents</p>
   <a href="{{ url_for('about') }}"><button class="button"> Get Started</button></a>
 </div>
 

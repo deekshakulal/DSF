@@ -1,6 +1,9 @@
 import functions
 
-files=["c1.txt","c2.txt","c3.txt"]
+#files=["c1.txt","c2.txt","c3.txt"]
+#files=["f4.txt","f5.txt","c3.txt"]
+#files=["d1.txt","d.txt"]
+files=["c1.txt","c2.txt"]
 
 triplets=functions.getTriplets(files)
 #print(triplets)
