@@ -1,5 +1,5 @@
-# import readFiles
-# import json
+import readFiles
+import json
 
 # files=["x.txt","s.txt"]
 def getTriplets(files):
