@@ -13,21 +13,39 @@
           
       <div class="form-box">
              
-                  <div id="ifno" style="display:bock">
+                  <div id="ifno" style="display:bock;font-size: 20px;">
                       <form action="{{ url_for('addRegion') }}" method="post" enctype="multipart/form-data">
-                          <br><br><br><br><br>
-                          <label for="files" style="text-align: center;">Select minimum 2 text files:</label>
+                          <br><br>
+                          <label for="files" id="leb" style="font-weight: lighter; font-size: 30px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Select minimum 2 text files:</label>
                           <br><br><br><br>
-                          <input type="file" id="files" name="files" multiple placeholder="File" required style="text-align: center;"><br><br>
-                          <br><br><br><br><br><br><br><br>
-                          <input type="submit" class="submit-btn" name="submit" value="Submit" />
+                          <input type="file" id="files" name="files" accept="*" multiple placeholder="File" required ><br><br>
+                          <br><br>
+                          <input type="submit" class="submit-btn1" name="submit" value="Upload" />
+              
                       </form>
                       
                   </div>
               </div>
       </div>
   
-      
+  <script>
+  var upload = document.querySelector('input[type="file"]');
+  upload.addEventListener('change', function() {
+      var files = this.files;
+      if(files.length<2){
+        if(!alert('Please enter minimum two text files.')){window.location.reload();}
+      }
+      else{
+      for (var i = 0; i < files.length; i++) {
+          var file = files.item(i);
+          if (!file.name.match(/.txt$/i) || file.type != 'text/plain') {
+              console.log(file.name + ' is not a .txt file.');
+              if(!alert(file.name + ' is not a .txt file.')){window.location.reload();}
+          }
+      }
+      }
+  });
+</script>   
     
   </body>
   

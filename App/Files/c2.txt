@@ -1,4 +1,10 @@
-CASE REPORT
-A 67 y/o (year old) female from Western Africa initially presented to the Emergency Department (ED) complaining of fatigue and subjective fevers for the past 2 days. Patient complained that her fevers were associated with headaches, but not chills, rigors, or chest pain. Index of suspicion for malaria was high as patient had recently traveled from an endemic region. Patients travel history to Western Africa and the presenting symptoms also made us consider a possibility of Ebola virus disease.
-
-Past medical history included diabetes, hypertension, and a history of recent travel to her home country of Togo for 5 months. Patient had returned 5 days ago from her travel and started to develop symptoms of fevers and fatigue. Patient denied any immunizations received before traveling. Past surgical history included a left breast mastectomy done back in France 1987. Medication history included Amlodipine, Aspirin, Calcium Carbonate, Synthroid, Pioglitazone, Humalog, Glucovance, Crestor, Januvia, and Lisinopril. After initial presentation to the ED for 2 days of fevers and fatigue, she was accepted by Medicine and transferred to the general medical floors. The patient had a blood pressure of 123/55, pulse of 86 beats per minute (bpm), Temperature of 98.5 °F, and respiratory rate of 16 at the time of admission. Physical examination did not disclose any specific abnormalities.
+A female from Western Africa initially presented to the Emergency Department (ED) complaining of fatigue and subjective fevers for the past 2 days. 
+Patient complained that her fevers were associated with headaches, but not chills, rigors, or chest pain. Index of suspicion for malaria was high 
+as patient had recently traveled from an endemic region. Patients travel history to Western Africa and the presenting symptoms also made us consider
+a possibility of Ebola virus disease. Past medical history included diabetes, hypertension, and a history of recent travel to her home country of 
+Togo for 5 months. Patient had returned 5 days ago from her travel and started to develop symptoms of fevers and fatigue. Patient denied any 
+immunizations received before traveling. Past surgical history included a left breast mastectomy done back in France 1987. Medication history 
+included Amlodipine, Aspirin, Calcium Carbonate, Synthroid, Pioglitazone, Humalog, Glucovance, Crestor, Januvia, and Lisinopril. After initial 
+presentation to the ED for 2 days of fevers and fatigue, she was accepted by Medicine and transferred to the general medical floors. The patient 
+had a blood pressure of 123/55, pulse of 86 beats per minute (bpm), Temperature of 98.5 °F, and respiratory rate of 16 at the time of admission. 
+Physical examination did not disclose any specific abnormalities.

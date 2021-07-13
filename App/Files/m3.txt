@@ -1,2 +1,3 @@
-Coronaviruses are a family of viruses that can cause respiratory illness in humans. COVID-19 affects different people in different ways. Most infected people will develop mild to moderate illness and recover without hospitalization. Patient will suffer from beathing problem.
+Coronaviruses are a family of viruses that can cause respiratory illness in humans. COVID-19 affects different people in different ways. 
+Most infected people will develop mild to moderate illness and recover without hospitalization. Patient will suffer from beathing problem.
 Most common symptoms are fever and cough. Additional symptoms like aches, pains, sore throat, diarrhoea,loss of taste or smell.

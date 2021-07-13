@@ -1,5 +1,5 @@
-import readFiles
-import json
+# import readFiles
+# import json
 
 # files=["x.txt","s.txt"]
 def getTriplets(files):
@@ -39,7 +39,7 @@ def computescore(triplets):
             #similarity score
             s=(len(set(a[j]) & set(a[i])) / float(len(set(a[j]) | set(a[i]))) * 100) # (common strings/ all strings without repetition)*100
             #print("Similarity score of",list(triplets.keys())[i]," and",list(triplets.keys())[j],"==> ",s)
-            score[list(triplets.keys())[i]+" & "+list(triplets.keys())[j]]=round(s,2)
+            score[list(triplets.keys())[i]+" - "+list(triplets.keys())[j]]=round(s,2)
     return score
 
 def keywordsearch(keyword,triplets):
@@ -53,7 +53,7 @@ def keywordsearch(keyword,triplets):
         a.append(r)
     for i in range(len(a)):
         p=(a[i].count(keyword)/len(a[i]))*100
-        search[keyword+ " in "+list(triplets.keys())[i]]=round(p,2)
+        search[list(triplets.keys())[i]]=round(p,2)
         #print("occurance of ",k, "in ",list(tripletss.keys())[i],"==> ",round(p,2),"%") # (common strings/ all strings without repetition)*100
     return search
 

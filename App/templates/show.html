@@ -2,17 +2,16 @@
 <html>
     <head>
         <title>Knowledge Graphs</title>
-        <link rel="stylesheet" href="{{ url_for('static', filename='about.css') }}">
         <link rel="icon" href="{{ url_for('static', filename='bg3.jpg') }}">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
-<body onload="func()">
+<body>
 
 {% if im %}
 <input type="hidden" name="imgfile" id="imgfile" value='{{im}}'><br><br>
 {% endif %}
 <script type="text/javascript">
-    function func(){
+
             //p=["c3.png","c1.png","a.png"]
             p=document.getElementById("imgfile").value;
             //var s= " \"{{ url_for('static', filename='KG/c3.png') }}\"";
@@ -24,12 +23,12 @@
                 
                 ar[i]=ar[i].replaceAll("'", "")
                 ar[i]=ar[i].replaceAll(" ", "")
-                document.write("<figure align='center'> <img src='/static/KG/"+ar[i]+"' alt='Snow' style='width:40%; height:80%;'> <figcaption>"+ar[i]+"</figcaption></figure>");
+                document.write("<figure align='center'> <img src='/static/KG/"+ar[i]+"' alt='Snow' style='width:40%; height:80%;'> <figcaption>"+ar[i].split(".")[0]+".txt </figcaption></figure>");
                 document.write("<hr>");
                
             }
            
-        }
+    
 
 </script>
 </body>

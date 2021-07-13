@@ -1,1 +1,7 @@
-A 23-year-old man from Liberia was seen at an emergency department in the Netherlands because of abdominal pain for three days and a fever of 40°C. Besides an episode of malaria in the past (before 2008), he had no medical history. His travel history indicated a visit to a malaria-endemic country, Liberia, in 2008. Nine days before admission to our hospital, he returned from a four-week holiday in Barcelona, Spain and Treviso, Italy, where he traveled by car. During his travel, he stayed with immigrants who recently returned from Africa, some of whom were sick and had fevers. The patient reported that in both places the living conditions were poor, and many indoor insects, including mosquitoes, were present. No other risk factors for transmission of malaria (e.g., intravenous drug use, blood transfusion, surgical interventions, airport visit) were reported.
+A 23-year-old man from Liberia was seen at an emergency department in the Netherlands because of abdominal pain for three days and a fever of 40°C. 
+Besides an episode of malaria in the past (before 2008), he had no medical history. His travel history indicated a visit to a malaria-endemic 
+country, Liberia, in 2008. Nine days before admission to our hospital, he returned from a four-week holiday in Barcelona, Spain and Treviso, 
+Italy, where he traveled by car. During his travel, he stayed with immigrants who recently returned from Africa, some of whom were sick and had 
+fevers. The patient reported that in both places the living conditions were poor, and many indoor insects, including mosquitoes, were present. 
+No other risk factors for transmission of malaria (e.g., intravenous drug use, blood transfusion, surgical interventions, airport visit) were 
+reported.

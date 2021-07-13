@@ -2,14 +2,15 @@
 <html>
 
 <head>
-	<title>Options</title>
-	<link rel="stylesheet" href="{{ url_for('static', filename='about.css') }}">
+	<title>DSF</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='result.css') }}">
     <link rel="icon" href="{{ url_for('static', filename='bg3.jpg') }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-	<div class="hero">
+	<div class="hero1">
+	</div>
 		<div class="form-box">
 			
 		{% if results %}
@@ -17,10 +18,22 @@
         <form>
             
             {% if st %}
-            <br><br><br><br><br>
-            <p class="p">Similarity between: </p>
-            <br><br><br>
-            <p class="p">{{st}}</p>
+            <article>
+                <h1>Similarity Score</h1>
+            </article>
+            <br>
+            <table border='1px' >
+                <tr>
+                    <th >Documents</th>
+                    <th >Score(in %)</th>
+                </tr>
+                {% for key, value in st.items() %}
+                   <tr>
+                        <td > {{ key }} </td>
+                        <td > {{ value }} </td>
+                   </tr>
+                {% endfor %}
+                </table>
             {% endif %}
         </form>
         
@@ -31,7 +44,7 @@
 				
 		</div>
 		
-	</div>
+	
 	
 
 		
