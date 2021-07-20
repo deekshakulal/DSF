@@ -58,8 +58,8 @@ flask run
 
 ## Team
 
-* **4SF17IS017** - [Deeksha](https://github.com/deekshakulal)
-* **4SF17IS029** - [Glenisha](https://github.com/Glenisha16)
-* **4SF17IS031** - [Jasirah](https://github.com/JASIRAHS)
-* **4SF17IS015** - [Crisel](https://github.com/crisellm)
+* [Deeksha](https://github.com/deekshakulal)
+* [Glenisha](https://github.com/Glenisha16)
+* [Jasirah](https://github.com/JASIRAHS)
+* [Crisel](https://github.com/crisellm)
 
