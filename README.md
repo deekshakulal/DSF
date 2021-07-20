@@ -31,9 +31,9 @@ pip install https://github.com/explosion/spacy-models/releases/download/en_core_
 
 ### Installing external requirements  
 
-We will use two Stanford packages:
-
-Download the stanfordCoreNLP package using the link https://stanfordnlp.github.io/CoreNLP/download.html and the stanford parsor using https://nlp.stanford.edu/software/stanford-parser-4.2.0.zip
+We will use two Stanford packages. Download the packages using the link below:
+* StanfordCoreNLP : https://stanfordnlp.github.io/CoreNLP/download.html 
+* Stanford parsor using https://nlp.stanford.edu/software/stanford-parser-4.2.0.zip
 
 Note : Make sure you have java 8 and jdk 8 installed in your system. Then give the respective path name for CLASS_NAME and JAVAHOME environment variables (in simplification.py)
 
@@ -51,10 +51,10 @@ Open the terminal or new command prompt and go to 'dsf' folder:
 ```
 flask run
 ```
-Open the browser and open http://localhost:5000/
-You can see the dsf framework running (It may take a little time initially to import all modules at first)
-Select the text files and upload it(The processing time depends on the processor speed and complexity of documents uploaded)
-Click on the buttons to get the reuired result(i.e, similarity score, keyword search or knowledge graph)
+* Open the browser and open http://localhost:5000/
+* You can see the dsf framework running (It may take a little time initially to import all modules at first)
+* Select the text files and upload it(The processing time depends on the processor speed and complexity of documents uploaded)
+* Click on the buttons to get the reuired result(i.e, similarity score, keyword search or knowledge graph)
 
 ## Team
 
