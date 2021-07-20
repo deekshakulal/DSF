@@ -33,10 +33,10 @@ pip install https://github.com/explosion/spacy-models/releases/download/en_core_
 
 We will use two Stanford packages:
 
-Download the stanfordCoreNLP package using the link https://stanfordnlp.github.io/CoreNLP/download.html
-Download the stanford parsor using https://nlp.stanford.edu/software/stanford-parser-4.2.0.zip
+Download the stanfordCoreNLP package using the link https://stanfordnlp.github.io/CoreNLP/download.html and the stanford parsor using https://nlp.stanford.edu/software/stanford-parser-4.2.0.zip
 
-Note : Make sure you have java 8 and jdk 8 installed in your system.
+Note : Make sure you have java 8 and jdk 8 installed in your system. Then give the respective path name for CLASS_NAME and JAVAHOME environment variables (in simplification.py)
+
 
 ### Running stanfordcoreNLP server 
 Open the command propmpt and run the following command( path_name : path where coreNLP file is downloaded)
