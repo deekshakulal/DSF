@@ -33,10 +33,10 @@ pip install https://github.com/explosion/spacy-models/releases/download/en_core_
 
 We will use two Stanford packages:
 
-Download the stanfordCoreNLP package using the link https://stanfordnlp.github.io/CoreNLP/download.html
-Download the stanford parsor using https://nlp.stanford.edu/software/stanford-parser-4.2.0.zip
+Download the stanfordCoreNLP package using the link https://stanfordnlp.github.io/CoreNLP/download.html and the stanford parsor using https://nlp.stanford.edu/software/stanford-parser-4.2.0.zip
 
-Note : Make sure you have java 8 and jdk 8 installed in your system.
+Note : Make sure you have java 8 and jdk 8 installed in your system. Then give the respective path name for CLASS_NAME and JAVAHOME environment variables (in simplification.py)
+
 
 ### Running stanfordcoreNLP server 
 Open the command propmpt and run the following command( path_name : path where coreNLP file is downloaded)
@@ -58,6 +58,7 @@ Click on the buttons to get the reuired result(i.e, similarity score, keyword se
 
 ## Team
 
+<<<<<<< HEAD
 * **Deeksha** - [deekshakulal](https://github.com/deekshakulal)
 * **Glenisha** - [Glenisha16](https://github.com/Glenisha16)
 * **Jasirah** - [JASIRAHS](https://github.com/JASIRAHS)
@@ -65,4 +66,10 @@ Click on the buttons to get the reuired result(i.e, similarity score, keyword se
 
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+=======
+* **4SF17IS017** - [Deeksha](https://github.com/deekshakulal)
+* **4SF17IS029** - [Glenisha](https://github.com/Glenisha16)
+* **4SF17IS031** - [Jasirah](https://github.com/JASIRAHS)
+* **4SF17IS015** - [Crisel](https://github.com/crisellm)
+>>>>>>> 33a0f68485e21c10dd48012afc76f59a601a859f
 
