@@ -10,87 +10,59 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 What things you need to install the software and how to install them:
-Required Python modules in addition to basic modules:
+Required Python modules in addition to basic libraries:
+1. sys
+2. os
+3. nltk (StanfordDependencyParser)
+4. subprocess 
+5. parse
+6. pycorenlp
 
 ```
 pip install spacy (>=3.0.6)
 pip install networkx (>=2.5.1)
 pip install flask (>=2.0.1)
-
+pip isntall pycorenlp (>=0.3.0)
 ```
 Install en_core_web_sm for nlp model:
 ```
 pip install https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.0.0/en_core_web_sm-3.0.0.tar.gz
 ```
 
-### Installing
+### Installing external requirements  
 
-A step by step series of examples that tell you how to get a development env running
+We will use two Stanford packages:
 
-Say what the step will be
+Download the stanfordCoreNLP package using the link https://stanfordnlp.github.io/CoreNLP/download.html
+Download the stanford parsor using https://nlp.stanford.edu/software/stanford-parser-4.2.0.zip
 
+Note : Make sure you have java 8 and jdk 8 installed in your system.
+
+### Running stanfordcoreNLP server 
+Open the command propmpt and run the following command( path_name : path where coreNLP file is downloaded)
 ```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
+java -mx4g -cp "{path_name}\stanford-corenlp-4.2.2\stanford-corenlp-4.2.2\*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -annotators "tokenize,ssplit,pos,lemma,depparse,natlog,openie" -outputFormat "json" -openie.triple.strict "true" -openie.max_entailments_per_clause 3
 ```
 
-### And coding style tests
 
-Explain what these tests test and why
+## Running the program
+Open the terminal or new command prompt and go to 'dsf' folder: 
 
 ```
-Give an example
+flask run
 ```
+Open the browser and open http://localhost:5000/
+You can see the dsf framework running (It may take a little time initially to import all modules at first)
+Select the text files and upload it(The processing time depends on the processor speed and complexity of documents uploaded)
+Click on the buttons to get the reuired result(i.e, similarity score, keyword search or knowledge graph)
 
-## Deployment
+## Team
 
-Add additional notes about how to deploy this on a live system
+* **Deeksha** - [deekshakulal](https://github.com/deekshakulal)
+* **Glenisha** - [Glenisha16](https://github.com/Glenisha16)
+* **Jasirah** - [JASIRAHS](https://github.com/JASIRAHS)
+* **Crisel** - [crisellm](https://github.com/crisellm)
 
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
