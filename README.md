@@ -58,18 +58,8 @@ Click on the buttons to get the reuired result(i.e, similarity score, keyword se
 
 ## Team
 
-<<<<<<< HEAD
-* **Deeksha** - [deekshakulal](https://github.com/deekshakulal)
-* **Glenisha** - [Glenisha16](https://github.com/Glenisha16)
-* **Jasirah** - [JASIRAHS](https://github.com/JASIRAHS)
-* **Crisel** - [crisellm](https://github.com/crisellm)
-
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-=======
 * **4SF17IS017** - [Deeksha](https://github.com/deekshakulal)
 * **4SF17IS029** - [Glenisha](https://github.com/Glenisha16)
 * **4SF17IS031** - [Jasirah](https://github.com/JASIRAHS)
 * **4SF17IS015** - [Crisel](https://github.com/crisellm)
->>>>>>> 33a0f68485e21c10dd48012afc76f59a601a859f
 
