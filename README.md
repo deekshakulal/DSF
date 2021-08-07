@@ -46,7 +46,7 @@ java -mx4g -cp "{path_name}\stanford-corenlp-4.2.2\stanford-corenlp-4.2.2\*" edu
 
 
 ## Running the program
-Open the terminal or new command prompt and go to 'dsf' folder: 
+Open the terminal or new command prompt and go to 'App' folder: 
 
 ```
 flask run
