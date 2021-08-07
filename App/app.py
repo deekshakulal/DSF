@@ -21,10 +21,11 @@ def about():
 
 @app.route('/addRegion', methods=['POST'])
 def addRegion():
-    x=request.form['files']
+    #x=request.form['files']
     fs=[]
     r={}
     x=request.files.getlist('files')
+    print(x)
     import functions
     for f in x:
         fs.append(f.filename)
